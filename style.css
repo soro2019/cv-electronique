@@ -1,0 +1,92 @@
+/* Réinitialisation de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles globaux */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+/* En-tête */
+header {
+  background-color: #66CDAA;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 28px;
+}
+
+header p {
+  font-size: 16px;
+}
+
+/* Conteneur principal */
+.container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+/* Sections */
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  border-bottom: 2px solid #66CDAA;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Listes */
+ul {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+/* Styles pour les expériences */
+.job {
+  margin: 10px 0;
+  padding: 10px;
+  background: #e2e2e2;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Compétences */
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills ul li {
+  background: #ddd;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+/* Pied de page */
+footer {
+  text-align: center;
+  font-size: 14px;
+  padding: 10px 0;
+  background-color: #66CDAA;
+  color: #fff;
+  margin-top: 20px;
+}
